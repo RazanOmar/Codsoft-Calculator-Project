@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+    <body>
+        <div id="Calculator">
+            <div id="content">
+                <form>
+                    <div id="output">
+                        <input type="text" id="res">                        
+                    </div>
+                    <div class="bttn">
+                        <!--<input type="button" onclick="Back()" value= '←' id="backspace">
+                        <input type="button" onclick="Solve('/')" value= '/'>
+                        <input type="button" onclick="Solve('%')" value= '%'> -->
+                        <br>
+                        <input type="button" onclick="Display('1')" value= '1' id="btn">
+                        <input type="button" onclick="Display('2')" value= '2' id="btn">
+                        <input type="button" onclick="Display('3')" value= '3' id="btn">
+                        <input type="button" onclick="Display('+')" value= '+' id="btn">
+                        <br>
+                        <input type="button" onclick="Display('4')" value= '4' id="btn">
+                        <input type="button" onclick="Display('5')" value= '5' id="btn">
+                        <input type="button" onclick="Display('6')" value= '6' id="btn">
+                        <input type="button" onclick="Display('-')" value= '-' id="btn">
+                        <br>
+                        
+                        <input type="button" onclick="Display('7')" value= '7' id="btn">
+                        <input type="button" onclick="Display('8')" value= '8' id="btn">
+                        <input type="button" onclick="Display('9')" value= '9' id="btn">
+                        <input type="button" onclick="Operation()" value= '=' id="btn">
+
+                        <br>
+                        <input type="button" onclick="Display('00')" value= '00' id="btn">
+                        <input type="button" onclick="Display('0')" value= '0' id="btn">
+                        <input type="button" onclick="Display('.')" value= '.' id="btn">
+                        <input type="button" onclick="Clear()" value= '←' id="btn">
+                        <!-- <input type="button" onclick="Solve('00')" value= '00'>
+                        <input type="button" onclick="Solve('0')" value= '0'>
+                        <input type="button" onclick="Solve('.')" value= '.'>
+                        <input type="button" onclick="Result()" value= '='> -->
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src='Operation.js'></script>
+    </body>
+</html>
